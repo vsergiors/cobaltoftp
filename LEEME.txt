@@ -1,0 +1,57 @@
+COBALTO FTP — WEB DE DESCARGA
+=============================
+
+Esta carpeta es una web completa. Al abrirla, empieza a descargar
+CobaltoFTP.exe automáticamente (y siempre queda el botón por si el
+navegador bloquea la descarga automática).
+
+CÓMO ABRIRLA
+------------
+
+Opción 1 (la más rápida):
+  Doble clic en "abrir.cmd"
+  o doble clic en "index.html".
+
+Opción 2 (servidor local, recomendado para probar en otros equipos):
+  Doble clic en "servir.cmd"
+  Se abrirá http://localhost:8099/
+  Requiere Node.js instalado.
+
+CÓMO PUBLICARLA EN INTERNET
+---------------------------
+
+Sube el contenido de esta carpeta tal cual a cualquier hosting estático:
+GitHub Pages, Netlify, Cloudflare Pages, Vercel, un hosting normal por FTP...
+No necesita PHP, base de datos ni configuración especial.
+
+La descarga apunta a:
+  downloads/CobaltoFTP.exe
+
+Si actualizas la app, sustituye SOLO ese archivo por el nuevo .exe.
+El nombre debe seguir siendo CobaltoFTP.exe para que la web funcione.
+
+QUÉ HAY AQUÍ
+------------
+
+index.html                 Página de descarga
+styles.css                 Estilos
+app.js                     Descarga automática, copiar SHA-256
+servidor.js / servir.cmd   Servidor local opcional (Node.js)
+abrir.cmd                  Abre la página con doble clic
+assets/mark.png            Logo (cuadrado azul)
+assets/logo-white.png      Logotipo para el pie
+assets/icon-256.png        Icono / favicon
+assets/vista-previa.png    Captura real de la app
+downloads/CobaltoFTP.exe   El ejecutable que se descarga
+downloads/SHA256.txt       Huella del ejecutable
+
+NOTA
+----
+
+El hash SHA-256 que muestra la web está escrito en index.html.
+Si cambias el .exe, actualiza también ese valor con:
+
+  certutil -hashfile "downloads\CobaltoFTP.exe" SHA256
+
+Para desactivar la descarga automática en una visita concreta:
+  index.html?auto=0

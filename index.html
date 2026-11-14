@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cobalto FTP — descargar para Windows</title>
+  <meta name="description" content="Cliente FTP y FTPS portable para Windows. Accede a todas tus unidades, sube y baja carpetas completas y guarda tus sesiones cifradas. Un solo .exe, sin instalar nada.">
+  <meta name="theme-color" content="#0043F0">
+  <meta property="og:title" content="Cobalto FTP — descargar para Windows">
+  <meta property="og:description" content="Tu equipo y tu servidor, en la misma ventana. Cliente FTP/FTPS portable para Windows 10/11 x64.">
+  <meta property="og:image" content="assets/vista-previa.png">
+  <link rel="icon" href="assets/icon-256.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="masthead">
+    <a class="brand" href="./" aria-label="Cobalto FTP, inicio">
+      <img src="assets/mark.png" alt="" width="40" height="40">
+      <span class="brand__name">Cobalto <b>FTP</b></span>
+    </a>
+
+    <div class="masthead__meta">
+      <span class="pill">v1.0</span>
+      <span class="pill pill--quiet">Windows · x64</span>
+      <a class="masthead__link" href="downloads/CobaltoFTP.exe" download="CobaltoFTP.exe">
+        Descargar
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v9m0 0 4-4m-4 4L6 8M4 15.5h12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <div class="hero__copy">
+        <h1>Tu equipo y tu servidor, <span class="mark">en la misma ventana.</span></h1>
+
+        <p class="lede">Cliente FTP y FTPS portable para Windows. Entra en cualquier unidad —Descargas, Documentos, un USB— y transfiere con doble clic. Sin instalador, sin cuentas y sin ventanas de más.</p>
+
+        <div class="ticket" id="descarga">
+          <div class="ticket__head">
+            <div>
+              <p class="ticket__label">Descarga directa</p>
+              <p class="ticket__file">CobaltoFTP.exe</p>
+            </div>
+            <span class="stamp">Portable<br>sin instalar</span>
+          </div>
+
+          <a class="btn-dl" id="download" href="downloads/CobaltoFTP.exe" download="CobaltoFTP.exe">
+            <span>Descargar Cobalto FTP</span>
+            <span class="btn-dl__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 4v11m0 0 4.5-4.5M12 15l-4.5-4.5M5 19h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+
+          <p class="ticket__status" id="dl-status" aria-live="polite">La descarga se inicia automáticamente.</p>
+
+          <dl class="ticket__meta">
+            <div><dt>Tamaño</dt><dd>59,4 MB</dd></div>
+            <div><dt>Versión</dt><dd>1.0 · x64</dd></div>
+            <div><dt>Sistema</dt><dd>Windows 10/11</dd></div>
+            <div><dt>Instalación</dt><dd>Ninguna</dd></div>
+          </dl>
+
+          <details class="hash">
+            <summary>Verificar SHA-256</summary>
+            <div class="hash__row">
+              <code id="hash-value">96D0F248167CBA0C3275D0ABB1E5279B6D6AFD369B05306A3B30F8FA3962776F</code>
+              <button type="button" id="copy-hash" aria-label="Copiar el hash SHA-256">Copiar</button>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <div class="hero__view">
+        <div class="hatch" aria-hidden="true"></div>
+
+        <div class="hero__frame">
+          <figure class="window">
+            <div class="window__bar" aria-hidden="true">
+              <span></span><span></span><span></span>
+              <p>Cobalto FTP</p>
+            </div>
+            <img src="assets/vista-previa.png" width="1297" height="737"
+                 alt="Ventana de Cobalto FTP con el explorador local a la izquierda, el servidor a la derecha y la cola de transferencias abajo.">
+          </figure>
+
+          <div class="stub" aria-hidden="true">
+            <span class="stub__name">CobaltoFTP.exe</span>
+            <span class="stub__rule"></span>
+            <span>59,4 MB</span>
+            <span class="stub__rule"></span>
+            <span>win-x64</span>
+          </div>
+        </div>
+
+        <p class="caption">Vista real: tus discos a la izquierda, el servidor a la derecha.</p>
+      </div>
+    </section>
+
+    <section class="capabilities" aria-labelledby="cap-title">
+      <div class="section-head">
+        <h2 id="cap-title">Pensado para mover archivos, no para pelear con la ventana.</h2>
+        <p>Lo que en otros clientes son tres menús y una ruta que hay que recordar, aquí es un panel, un selector y doble clic.</p>
+      </div>
+
+      <ul class="rows">
+        <li class="row">
+          <span class="row__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 7.5h.01M7 16.5h.01" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Todas tus unidades</h3>
+          <p>Un selector con todos los discos conectados y accesos de un clic a Descargas, Documentos, Escritorio e Inicio. También puedes escribir cualquier ruta y pulsar Enter.</p>
+        </li>
+
+        <li class="row">
+          <span class="row__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="7.5" height="16" rx="2"/><rect x="13.5" y="4" width="7.5" height="16" rx="2"/><path d="M5.5 8h2.5M16 8h2.5" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Dos paneles, cero dudas</h3>
+          <p>Local a la izquierda, servidor a la derecha. Doble clic para entrar en una carpeta o para subir y bajar un archivo al instante.</p>
+        </li>
+
+        <li class="row">
+          <span class="row__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3.5 7.5A2 2 0 0 1 5.5 5.5h4l2 2h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2v-10Z"/><path d="M12 11v5m0 0 2.2-2.2M12 16l-2.2-2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Carpetas completas</h3>
+          <p>Selecciona una carpeta y súbela o bájala entera. Cobalto FTP reproduce la estructura de subcarpetas y encola cada archivo con su progreso.</p>
+        </li>
+
+        <li class="row">
+          <span class="row__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="4.5" y="10" width="15" height="9.5" rx="2.5"/><path d="M8 10V8a4 4 0 0 1 8 0v2M12 14v2" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Sesiones que no se pierden</h3>
+          <p>Guarda tus servidores y contraseñas. Las credenciales se cifran con DPAPI, la protección de tu propio usuario de Windows, y la carpeta de datos viaja junto al .exe.</p>
+        </li>
+
+        <li class="row">
+          <span class="row__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3.5 19 6v5.5c0 4.2-2.8 7.6-7 9-4.2-1.4-7-4.8-7-9V6l7-2.5Z"/><path d="m9 12 2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>FTP y FTPS</h3>
+          <p>Conexión directa, FTPS explícito o FTPS implícito, con modo pasivo y validación de certificado. SFTP todavía no está disponible y la app lo dice claro.</p>
+        </li>
+
+        <li class="row">
+          <span class="row__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v1.5A1.5 1.5 0 0 0 5.5 20h13a1.5 1.5 0 0 0 1.5-1.5V17" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Un solo archivo</h3>
+          <p>Sin instalador ni dependencias: el .NET necesario va dentro del ejecutable. Copia el .exe a un USB y tus sesiones van con él.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="steps" aria-labelledby="steps-title">
+      <div class="section-head section-head--single">
+        <h2 id="steps-title">Tres pasos y estás dentro.</h2>
+      </div>
+
+      <ol class="steps__list">
+        <li>
+          <span class="steps__num" aria-hidden="true">01</span>
+          <h3>Descarga el .exe</h3>
+          <p>59,4 MB. Se guarda como <code>CobaltoFTP.exe</code> en tu carpeta de Descargas.</p>
+        </li>
+        <li>
+          <span class="steps__num" aria-hidden="true">02</span>
+          <h3>Ábrelo</h3>
+          <p>No hay instalador. Al arrancar crea su carpeta <code>CobaltoFTP\</code> junto al ejecutable para guardar sesiones.</p>
+        </li>
+        <li>
+          <span class="steps__num" aria-hidden="true">03</span>
+          <h3>Conecta y transfiere</h3>
+          <p>Escribe el servidor, el usuario y la contraseña. Si el servidor es anónimo, deja el usuario vacío.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <div class="faq__head">
+        <h2 id="faq-title">Antes de descargar</h2>
+        <p>Lo importante, sin letra pequeña.</p>
+      </div>
+
+      <div class="faq__list">
+        <details>
+          <summary>¿Necesito instalar .NET o algún requisito?</summary>
+          <p>No. El ejecutable es autocontenido e incluye el runtime. Solo necesitas Windows 10 u 11 de 64 bits.</p>
+        </details>
+        <details>
+          <summary>¿Windows avisará de que es un archivo desconocido?</summary>
+          <p>Puede ocurrir con cualquier ejecutable descargado de internet. El archivo no está firmado digitalmente, así que SmartScreen puede pedirte confirmación. Puedes comprobar el SHA-256 en la tarjeta de descarga.</p>
+        </details>
+        <details>
+          <summary>¿Dónde guarda mis sesiones y contraseñas?</summary>
+          <p>En una carpeta <code>CobaltoFTP\</code> junto al .exe; si esa ubicación no se puede escribir, en <code>%LOCALAPPDATA%\CobaltoFTP\</code>. Las contraseñas se cifran con DPAPI y nunca se guardan en texto plano.</p>
+        </details>
+        <details>
+          <summary>¿Por qué no hay SFTP?</summary>
+          <p>Por ahora Cobalto FTP habla FTP, FTPS explícito y FTPS implícito. La opción SFTP aparece en la interfaz, pero se rechaza con un aviso en lugar de fingir que funciona.</p>
+        </details>
+        <details>
+          <summary>¿Cómo lo actualizo?</summary>
+          <p>Descarga el nuevo .exe y reemplaza el anterior. Conserva la carpeta <code>CobaltoFTP\</code> que está a su lado: ahí viven tus sesiones.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand">
+      <img src="assets/logo-white.png" alt="Cobalto FTP" width="150" height="64">
+    </div>
+    <p class="footer__meta">Windows 10/11 · x64 · v1.0</p>
+    <a class="footer__link" href="downloads/CobaltoFTP.exe" download="CobaltoFTP.exe">Descargar de nuevo</a>
+  </footer>
+</body>
+</html>
